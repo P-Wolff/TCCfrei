@@ -2,6 +2,8 @@
 
 
 import './index.scss';
+import './resp';
+import '/css/fonts.scss';
 
 export default function App() {
   return (
@@ -24,20 +26,20 @@ export default function App() {
         </nav>
       </header>
 
-      <main>
-        <section>-
+      <main className='container'>
+        <section className='principal-container'>-
             <div className='info-container'>
               <h1>HSSW Code</h1>
               <p>A tecnologia e o mundo estão a evoluir, e você?</p>
             </div>
-            <img src="/assets/images/header-container.jpg" alt="" />
+            <img className='img-container' src="/assets/images/header-container.jpg" alt="" />
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 HSSW Code</p>
     </footer>
-    <script src="./index.jsx"></script>
+    <script src="./resp.jsx"></script>
 
 
     </div>
